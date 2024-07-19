@@ -21,5 +21,19 @@ export const Container = styled.div`
                 text-decoration: underline;
             }
         }
-    }   
+    }  
+    button {
+        padding: 10px 20px;
+        background-color: var(--accent-color);
+        color: var(--primary-bg-color);
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: bold;
+        transition: background-color 0.3s;
+        &:hover {
+            background-color: var(--primary-color);
+        }
+    }     
 `;
